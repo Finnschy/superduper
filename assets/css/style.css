@@ -22,6 +22,10 @@ header section {
     margin-bottom: 5em;
 }
 
+header section:hover {
+    background-image: linear-gradient(to top right, #3dc8d5, #8507e1);
+}
+
 h1 {
     font-family: 'Maven Pro';
     line-height: .9em;
