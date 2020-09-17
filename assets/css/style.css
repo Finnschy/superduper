@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 70vh;
+    background-color: #333;
+    color: white;
+}
+
+header section {
+    width: 15em;
+    height: 13.5em;
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: .5em;
+    background-image: linear-gradient(to bottom left, #3dc8d5, #8507e1);
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+h1 {
+    font-family: 'Maven Pro';
+    line-height: .9em;
+    padding: .5em;
+    font-size: 1.7em;
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    font-family: 'Gilda Display';
+    font-size: 3.5em;
+    padding-left: .2em;
+    margin-top: .3em;
+}
+
+header section p {
+    font-family: 'Maven Pro';
+    font-size: .9em;
+    text-align: center;
+    margin-top: -2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+li {
+    font-size: 1.5em;
+    font-family: 'Maven Pro';
+    padding-right: 2em;
+    line-height: 2em;
+    text-align: right;
+    list-style: none;
+}
+
+h3 {
+    font-size: 6.5em;
+    margin-top: .6em;
+}
+
+main section p {
+    width: 70%;
+    font-family: 'Maven Pro';
+    line-height: 1.5em;
+    margin-top: -5em;
+}
+
+main section:first-of-type {
+/*     border: 1px solid black;
+ */    width: 60em;
+    height: 30em;
+    margin-left: 8em;
+    margin-top: 8em;
+    margin-bottom: 10em;
+    background-image: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    padding-right: 15em;
+    padding-top: 5em;
+}
+
+main section {
+
+    height: 40em;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 30em;
+}
+
+main section h4 {
+    margin-top: 0em;
+    font-size: 4em;
+    margin-top: 11em;
+
+}
+main section p {
+    padding-top: 2em;
+    font-size: 1.3em;
+}
+
+
+
+main section:nth-of-type(2) {
+
+    background-image: url(https://assets.website-files.com/5c898b1d37266625ec969a97/5d1a683945dd8900108648db_capa_pmu-grad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 1em;
+
+}
+
+main section:nth-of-type(3) {
+
+    background-image: url(https://assets.website-files.com/5c898b1d37266625ec969a97/5cc86e71ea28d87b5e98a204_scott-goodwill-408543%203-gradi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 1em;
+
+}
+
+main section:nth-of-type(4) {
+
+    background-image: url(https://assets.website-files.com/5c898b1d37266625ec969a97/5d1a62fd45dd8967e9861c83_christopher-campbell-40367-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 1em;
+
+}
+
